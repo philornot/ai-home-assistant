@@ -1,4 +1,16 @@
-node_modules/
+# Baza danych
+database/memory.db
+database/*.db
+
+# Pliki środowiskowe
 .env
-*.log
+
+# Logi
+logs/*.log
+
+# Moduły Node.js
+node_modules/
+
+# Inne pliki tymczasowe
 .DS_Store
+*.tmp
